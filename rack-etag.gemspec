@@ -3,16 +3,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "blankgem/version"
+require "rack/etag/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "blankgem"
-  spec.version       = Blankgem::VERSION
+  spec.name          = "rack-etag"
+  spec.version       = Rack::ETag::VERSION
   spec.authors       = ["Kurtis Rainbolt-Greene"]
   spec.email         = ["me@kurtisrainboltgreene.name"]
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary       = %q{Writes ETag to responses}
   spec.description   = spec.summary
-  spec.homepage      = "http://krainboltgreene.github.io/blankgem"
+  spec.homepage      = "http://krainboltgreene.github.io/rack-etag"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"]
