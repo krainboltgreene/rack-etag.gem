@@ -3,7 +3,7 @@ INSTALLING
 
 Add this line to your application's Gemfile:
 
-    gem "rack-etag", "~> 2.0"
+    gem "rack-etag", "~> 3.0"
 
 And then execute:
 
