@@ -26,7 +26,7 @@ Installing
 
 Add this line to your application's Gemfile:
 
-    gem "rack-etag", "~> 1.0"
+    gem "rack-etag", "~> 2.0"
 
 And then execute:
 
