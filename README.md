@@ -12,14 +12,13 @@ rack/etag
   - [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
   - [![Version](http://img.shields.io/gem/v/rack-etag.svg?style=flat-square)](https://rubygems.org/gems/rack-etag)
 
-
-TODO: Write a gem description
+A conversion and cleanup of the rack core etag middleware.
 
 
 Using
 =====
 
-TODO: Write usage instructions here
+Simply add to your rack middleware stack and it'll handle etag related tasks.
 
 
 Installing

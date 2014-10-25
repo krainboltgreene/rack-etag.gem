@@ -19,18 +19,6 @@ describe Rack::ETag do
   end
 
   describe "#call" do
-    context "with If-Modified-Since set" do
-      let(:modified_sense) { Time.now }
-      it "returns 304"
-      it "removes Content-Type"
-      it "removes Content-Length"
-    end
 
-    context "with If-None-Match set" do
-      let(:none_match) { Time.now }
-      it "returns 304"
-      it "removes Content-Type"
-      it "removes Content-Length"
-    end
   end
 end
