@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.version       = Rack::ETag::VERSION
   spec.authors       = ["Kurtis Rainbolt-Greene"]
   spec.email         = ["me@kurtisrainboltgreene.name"]
-  spec.summary       = %q{Writes ETag to responses}
+  spec.summary       = %q{Middleware that writes ETag headers to responses}
   spec.description   = spec.summary
   spec.homepage      = "http://krainboltgreene.github.io/rack-etag"
   spec.license       = "MIT"
